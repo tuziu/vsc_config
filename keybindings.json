@@ -1,0 +1,223 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "up",
+        "command": "-cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.interactivePlayground.arrowUp",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "up",
+        "command": "-workbench.action.interactivePlayground.arrowUp",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "list.focusUp",
+        "when": "listFocus"
+    },
+    {
+        "key": "up",
+        "command": "-list.focusUp",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "search.action.focusSearchFromResults",
+        "when": "firstMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "up",
+        "command": "-search.action.focusSearchFromResults",
+        "when": "firstMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "search.focus.previousInputBox",
+        "when": "inputBoxFocus && searchViewletVisible && !searchInputBoxFocus"
+    },
+    {
+        "key": "up",
+        "command": "-search.focus.previousInputBox",
+        "when": "inputBoxFocus && searchViewletVisible && !searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "up",
+        "command": "-selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "showPrevParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "up",
+        "command": "-showPrevParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "repl.action.historyPrevious",
+        "when": "editorTextFocus && inDebugRepl && onFirsteDebugReplLine"
+    },
+    {
+        "key": "up",
+        "command": "-repl.action.historyPrevious",
+        "when": "editorTextFocus && inDebugRepl && onFirsteDebugReplLine"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "repl.action.historyNext",
+        "when": "editorTextFocus && inDebugRepl && onLastDebugReplLine"
+    },
+    {
+        "key": "down",
+        "command": "-repl.action.historyNext",
+        "when": "editorTextFocus && inDebugRepl && onLastDebugReplLine"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.interactivePlayground.arrowDown",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "down",
+        "command": "-workbench.action.interactivePlayground.arrowDown",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "down",
+        "command": "-cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "list.focusDown",
+        "when": "listFocus"
+    },
+    {
+        "key": "down",
+        "command": "-list.focusDown",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "search.focus.nextInputBox",
+        "when": "inputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "down",
+        "command": "-search.focus.nextInputBox",
+        "when": "inputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "down",
+        "command": "-selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "settings.action.focusSettingsFile",
+        "when": "inSettingsSearch"
+    },
+    {
+        "key": "down",
+        "command": "-settings.action.focusSettingsFile",
+        "when": "inSettingsSearch"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "showNextParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "down",
+        "command": "-showNextParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "left",
+        "command": "-cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "list.collapse",
+        "when": "listFocus"
+    },
+    {
+        "key": "left",
+        "command": "-list.collapse",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "right",
+        "command": "-cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "list.expand",
+        "when": "listFocus"
+    },
+    {
+        "key": "right",
+        "command": "-list.expand",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "repl.action.acceptSuggestion",
+        "when": "editorTextFocus && inDebugRepl && suggestWidgetVisible"
+    },
+    {
+        "key": "right",
+        "command": "-repl.action.acceptSuggestion",
+        "when": "editorTextFocus && inDebugRepl && suggestWidgetVisible"
+    }
+]

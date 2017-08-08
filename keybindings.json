@@ -219,5 +219,9 @@
         "key": "right",
         "command": "-repl.action.acceptSuggestion",
         "when": "editorTextFocus && inDebugRepl && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+oem_comma",
+        "command": "-workbench.action.openGlobalSettings"
     }
 ]
